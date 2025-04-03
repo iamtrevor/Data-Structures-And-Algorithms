@@ -5,7 +5,7 @@ void merge(int arr[], int left, int mid, int right){
     int i, j, k;
     int n1 = mid - left + 1;
     int n2 = right - mid;
-
+    
     // Allocate memory dynamically
     int* L = (int*)malloc(n1 * sizeof(int));
     int* R = (int*)malloc(n2 * sizeof(int));
